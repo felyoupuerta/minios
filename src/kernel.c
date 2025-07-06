@@ -6,9 +6,13 @@
 
 void kernel_main() {
     clear_screen();
-    print("MiniOS v0.1\n");
-    print("Type 'help' for available commands.\n\n");
+    print("Felinux v0.1\n");
 
-    init_memory();
+    print("\n\n\n");
+
+    print("Escribe 'help' Para ver los posibles comandos.\n\n");
+    
     init_keyboard();
+    init_memory();
+    
 }
